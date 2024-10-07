@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: lightcyan;
+    margin: 100px 200px;
+    font-size: 20px;
+}
+.main{
+    /* border: solid; */
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+}
+button{
+    width: 100px;
+    height: 30px;
+    border-radius: 5px;
+}
+.weight-guide{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+}
